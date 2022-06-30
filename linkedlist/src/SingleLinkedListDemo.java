@@ -1,4 +1,3 @@
-import com.sun.xml.internal.ws.api.pipe.NextAction;
 
 import java.util.Stack;
 
@@ -68,7 +67,7 @@ class SingleLinkedList {
             if (temp.getNext() == null) {
                 break;
             }
-            //如果没有找到最后, 将将temp后移
+            //如果没有找到最后, 将temp后移
             temp = temp.getNext();
         }
         //当退出while循环时，temp就指向了链表的最后
